@@ -17,6 +17,8 @@ sum_array_asm:
     cmpl %esi, %r8d
     jl while_loop
 
+  // remember return value is in %rax, 
+  // which we used to hold our sum 
   ret
 
 // c-code for reference
