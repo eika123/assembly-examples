@@ -21,7 +21,7 @@ sum_arithmetic_asm:
 int sum_airthmetic_asm(int n) {
   int s = 0;
   for (int k = 0; k <= n; k++) {
-    s += k
+    s += k;
   }
 }
 */
